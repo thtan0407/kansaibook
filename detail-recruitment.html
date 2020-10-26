@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detail Recruiment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme-style.css">
+</head>
+
+<body>
+
+<div id="app">
+    <menu-mobile></menu-mobile>
+    <myheader></myheader>
+    <main>
+        <sidebar></sidebar>
+
+        <div class="main-wrap">
+            <div class="detail-recruitment">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="recruitment-title">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates?
+                        </div>
+                        <div class="recruitment-meta">
+                            <div class="meta-item">
+                                <div class="meta-left">
+                                    <i class="fa fa-money"></i>
+                                    Mức lương:
+                                </div>
+                                <div class="meta-right">
+                                    15.000.000 đ
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-left">
+                                    <i class="fa fa-money"></i>
+                                    Ngày đăng: 
+                                </div>
+                                <div class="meta-right">
+                                    24-08-2020
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="meta-left">
+                                    <i class="fa fa-money"></i>
+                                    Ngày hết hạn:
+                                </div>
+                                <div class="meta-right">
+                                    24-09-2020
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recruitment-content">
+                            <div class="content-title">Nội dung tuyển dụng</div>
+                            <ul>
+                                <li>
+                                    1. Nam, tuổi từ 23 đến 32 tuổi.
+                                </li>
+                                <li>
+                                    2. Trình độ tốt nghiệp Cao đẳng, Đại học trở lên chuyên ngành Hóa học.
+                                </li>
+                                <li>
+                                    3. Sức khỏe tốt, nhanh nhẹn, cẩn thận, trung thực và chăm chỉ.
+                                </li>
+                                <li>
+                                    4. Có chí cầu tiến, kỷ năng giao tiếp và xử lý tình huống tốt, có khả năng chịu áp
+                                    lực công việc cao.
+                                </li>
+                                <li>
+                                    5. Có tinh thần làm việc nhóm và có khả năng làm việc độc lập.
+                                </li>
+                                <li>
+                                    6. Ưu tiên ứng viên có kinh nghiệm liên quan đến ngành dầu khí, vận hành thiết bị
+                                    dầu khí, biết sử dụng máy sắc khí đối với vị trí nhân viên thử nghiệm.
+                                </li>
+                                <li>
+                                    7. Ưu tiên ứng viên am hiểu hệ thống ISO/TEC 17025:2017
+                                </li>
+                            </ul>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam, architecto
+                                at commodi deserunt dicta distinctio enim est explicabo fuga fugit, ipsa minus neque
+                                nihil odit omnis perferendis provident repellat repellendus rerum sapiente sed sunt,
+                                voluptates. Architecto commodi deserunt dignissimos dolorem, eveniet, exercitationem
+                                facilis impedit inventore necessitatibus obcaecati quis vitae?
+                            </p>
+                        </div>
+                        <div class="recruitment-treatment">
+                            <div class="treatment-title">Chế độ và đãi ngộ</div>
+                            <ul>
+                                <li>- Lorem ipsum dolor sit.</li>
+                                <li>- Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li>- Lorem ipsum dolor.</li>
+                                <li>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consectetur deserunt
+                                    excepturi fugit inventore iusto labore nemo provident veritatis voluptatum.
+                                </li>
+                                <li>- Lorem ipsum dolor sit.</li>
+                            </ul>
+                        </div>
+                        <div class="recruitment-contact">
+                            <div class="contact-title">Chế độ và đãi ngộ</div>
+                            <p>Email liên hệ: <a href="mailto:thtan0407@gmail.com">thtan0407@gmail.com</a></p>
+                            <p>Điện thoại liên hệ: <a href="tel:0333851195">0333.851.195</a></p>
+                        </div>
+
+                        <div class="recruitment-apply text-align-center py-4">
+                            <button  data-toggle="modal" data-target="#popupApply" class="button-submit">Submit </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+<!-- Modal Login -> thông báo -->
+<div class="modal fade" id="popupApply" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Email ứng tuyển</h3>
+                <button data-dismiss="modal" class="close small text-white"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group required">
+                    <label for="email">Email:</label>
+                    <input type="email" value="" id="email" class="boxEmail">
+                    <span class="error">Required</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="submitApply" class="button-submit">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal Login -> thông báo -->
+
+<script src="js/vue.js"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        components: {
+            'myheader': httpVueLoader('header.vue'),
+            'sidebar': httpVueLoader('sidebar.vue'),
+            'menu-mobile': httpVueLoader('menu-mobile.vue'),
+        },
+    });
+</script>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Thư viện mới -->
+<script src="js/dragscroll.js"></script>
+
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.boxEmail').on("change paste", function () {
+            if ($(this).val() != '') {
+                $(this).parent().removeClass('errorDiv');
+                $(this).parent().removeClass('required');
+            } else {
+                $(this).parent().addClass('required');
+            }
+        });
+
+        $(document).on('click', '#submitApply', function () {
+            if ($('#popupApply .form-group.required').length > 0) {
+                $('#popupApply .form-group.required').addClass('errorDiv');
+                return false;
+            }
+
+            return false;
+        });
+    })
+</script>
+
+</body>
+
+</html>

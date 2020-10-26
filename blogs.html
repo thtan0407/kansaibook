@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme-style.css">
+</head>
+
+<body>
+
+<div id="app">
+    <menu-mobile></menu-mobile>
+    <myheader></myheader>
+    <main>
+        <sidebar></sidebar>
+
+        <div class="main-wrap">
+            <div class="wrapper-blogs">
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <div class="blogs-inner">
+                            <div class="blogs-image">
+                                <a href="single-blog.html">
+                                    <div class="blogs-backgroundImage"
+                                         style="background-image: url('images/600x350.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="blogs-main">
+                                <a href="single-blog.html">
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat?</h3>
+                                </a>
+                                <div class="blogs-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid autem
+                                    beatae consectetur consequuntur delectus eum fugit illo illum laboriosam, libero
+                                    modi nihil officia officiis quibusdam quo rem repellat rerum sapiente voluptas.
+                                    Ex hic illo modi quidem saepe. Architecto, asperiores!
+                                </div>
+                                <div class="blogs-day">
+                                    24/08/2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="blogs-inner">
+                            <div class="blogs-image">
+                                <a href="single-blog.html">
+                                    <div class="blogs-backgroundImage"
+                                         style="background-image: url('images/600x350.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="blogs-main">
+                                <a href="single-blog.html">
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat?</h3>
+                                </a>
+                                <div class="blogs-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid autem
+                                    beatae consectetur consequuntur delectus eum fugit illo illum laboriosam, libero
+                                    modi nihil officia officiis quibusdam quo rem repellat rerum sapiente voluptas.
+                                    Ex hic illo modi quidem saepe. Architecto, asperiores!
+                                </div>
+                                <div class="blogs-day">
+                                    24/08/2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="blogs-inner">
+                            <div class="blogs-image">
+                                <a href="single-blog.html">
+                                    <div class="blogs-backgroundImage"
+                                         style="background-image: url('images/600x350.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="blogs-main">
+                                <a href="single-blog.html">
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat?</h3>
+                                </a>
+                                <div class="blogs-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid autem
+                                    beatae consectetur consequuntur delectus eum fugit illo illum laboriosam, libero
+                                    modi nihil officia officiis quibusdam quo rem repellat rerum sapiente voluptas.
+                                    Ex hic illo modi quidem saepe. Architecto, asperiores!
+                                </div>
+                                <div class="blogs-day">
+                                    24/08/2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="blogs-inner">
+                            <div class="blogs-image">
+                                <a href="single-blog.html">
+                                    <div class="blogs-backgroundImage"
+                                         style="background-image: url('images/600x350.jpg')"></div>
+                                </a>
+                            </div>
+                            <div class="blogs-main">
+                                <a href="single-blog.html">
+                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat?</h3>
+                                </a>
+                                <div class="blogs-desc">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid autem
+                                    beatae consectetur consequuntur delectus eum fugit illo illum laboriosam, libero
+                                    modi nihil officia officiis quibusdam quo rem repellat rerum sapiente voluptas.
+                                    Ex hic illo modi quidem saepe. Architecto, asperiores!
+                                </div>
+                                <div class="blogs-day">
+                                    24/08/2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+<script src="js/vue.js"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        components: {
+            'myheader': httpVueLoader('header.vue'),
+            'sidebar': httpVueLoader('sidebar.vue'),
+            'menu-mobile': httpVueLoader('menu-mobile.vue'),
+        },
+    });
+</script>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+
+<script src="js/main.js"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
