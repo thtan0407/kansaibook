@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Kansaibook">
+	
+	<meta itemprop="name" content="Kansaibook">
+	<meta itemprop="description" content="Kansaibook">
+	<meta itemprop="image" content="/images/image-share.jpg">
+	
+	<meta property="og:locale" content="vi_VN">
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Kansaibook">
+	<meta property="og:description" content="Kansaibook">
+	<meta property="og:image" content="/images/image-share.jpg">
+	<meta property="og:url" content="https://kansaibook.com/">
+	<meta property="og:site_name" content="Kansaibook">
+	
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:description" content="Kansaibook"/>
+	<meta name="twitter:title" content="Kansaibook"/>
+	<meta name="twitter:site" content="https://kansaibook.com/"/>
+	<meta name="twitter:image" content="/images/image-share.jpg"/>
+	<meta name="twitter:creator" content="@kansaibook"/>
+	<!--  End   -->
+	
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+	      rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery.mmenu.all.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/theme-style.css">
+</head>
+
+<body>
+
+<div id="app">
+	<menu-mobile></menu-mobile>
+	<myheader></myheader>
+	<main>
+		<div class="main-videos">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="videos-left">
+							<div class="videos-left--top">
+								<div class="top-inner">
+									<iframe id="frame-video" src="https://www.youtube.com/embed/FtwG_C8RZiU"
+									        allowfullscreen></iframe>
+									<div class="videos-loading" id="loading-video" style="display:none;">
+										<div class="line line-01"></div>
+										<div class="line line-02"></div>
+										<div class="line line-03"></div>
+									</div>
+								</div>
+								<div class="top-desc">
+									<div class="top-desc--title" id="title-video">
+										One Piece Tập 50 - Usopp và Daddy: Trận Đấu Lúc Giữa Trưa - Hoạt Hình Tiếng Việt
+									</div>
+									<div class="top-desc--meta">
+										<div class="meta-left">
+											<span id="view-video">
+												<span>1200</span> lượt xem
+											</span>
+											<span id="time-video">
+												06-01-2020
+											</span>
+										</div>
+										<div class="meta-right">
+											<span id="like-video">
+												<a href="javascript:void(0)" title="Tôi thích video này" id="liked">
+													<i class="fa fa-thumbs-up"></i>
+													Lượt likes:
+													<span>188</span>
+												</a>
+											</span>
+											<span id="dislike-video">
+												<a href="javascript:void(0)" title="Tôi thích video này" id="disliked">
+													<i class="fa fa-thumbs-down"></i>
+													Lượt dislikes:
+													<span>1888</span>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="videos-left--bottom">
+								<div class="bottom-headline">
+									<span id="comment-video">0</span>
+									Bình luận
+								</div>
+								<div class="bottom-main">
+									<div class="bottom-main--top">
+										<div class="image">
+											<img src="./images/41.jpg" alt="">
+										</div>
+										<div class="textarea">
+											<form action="">
+												<textarea name="" id="textareaComment" class="changeHeightTextarea"
+												          rows="1" placeholder="Bình luận công khai"></textarea>
+												<div class="textarea-button--group">
+													<button type="button" class="btn btn-cancel" id="reset-textarea">
+														Huỷ
+													</button>
+													<button type="submit" class="btn btn-send" id="send-textarea"
+													        data-name="Huỳnh Chí Hiếu" data-avatar="./images/2.jpg">
+														Bình luận
+													</button>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="bottom-main--bottom">
+										<div class="list--comment">
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/2.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 tháng trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				10 ngày trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/24.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/2.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/34.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/2.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 tháng trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				10 ngày trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/24.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/2.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/34.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/2.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 giờ trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="list-item--comment">
+												<div class="image">
+													<img src="./images/41.jpg" alt="">
+												</div>
+												<div class="content">
+													<div class="info">
+														<div class="name">
+															2206 Nhanthuhai
+														</div>
+														<div class="time">
+															1 tháng trước
+														</div>
+													</div>
+													<div class="desc">
+														<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không ai ngờ đây là tác
+															phẩm duy nhất có sự trình diễn của 2 thí sinh top chung
+															kết</p>
+													</div>
+													<div class="action">
+														<div class="like-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-up"></i>
+																<span>46</span>
+															</a>
+														</div>
+														<div class="dislike-comment">
+															<a href="javascript:void(0)">
+																<i class="fa fa-thumbs-down"></i>
+																<span>0</span>
+															</a>
+														</div>
+														<div class="reply-comment">
+															<a href="javascript:void(0)" class="trigger-comment">
+																Phản hồi
+															</a>
+														</div>
+													</div>
+													<div class="expanded">
+														<a href="javascript:void(0)" class="expanded-comment">
+															<i class="fa fa-caret-down"></i>
+															Xem câu trả lời
+														</a>
+														<div class="expanded-content" style="display:none;">
+															<div class="expanded-list">
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				10 ngày trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/24.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/41.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				21/12/2020
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/2.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="expanded-list--item">
+																	<div class="image">
+																		<img src="./images/34.jpg" alt="">
+																	</div>
+																	<div class="content">
+																		<div class="info">
+																			<div class="name">
+																				2206 Nhanthuhai
+																			</div>
+																			<div class="time">
+																				1 giờ trước
+																			</div>
+																		</div>
+																		<div class="desc">
+																			<p>Lúc xem bài Hạt Cát Bụi Vàng chắc không
+																				ai ngờ đây là tác
+																				phẩm duy nhất có sự trình diễn của 2 thí
+																				sinh top chung
+																				kết</p>
+																		</div>
+																		<div class="action">
+																			<div class="like-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-up"></i>
+																					<span>46</span>
+																				</a>
+																			</div>
+																			<div class="dislike-comment">
+																				<a href="javascript:void(0)">
+																					<i class="fa fa-thumbs-down"></i>
+																					<span>0</span>
+																				</a>
+																			</div>
+																			<div class="reply-comment">
+																				<a href="javascript:void(0)"
+																				   class="trigger-comment">
+																					Phản hồi
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="videos-right">
+							<div class="videos-right--inner">
+								<div class="videos-right--list">
+									<div class="list-item active">
+										<a href="javascript:void(0)"
+										   title="One Piece Tập 50 - Usopp và Daddy: Trận Đấu Lúc Giữa Trưa - Hoạt Hình Tiếng Việt"
+										   class="getVideo"
+										   data-video="FtwG_C8RZiU" data-comment="5"
+										   data-title="One Piece Tập 50 - Usopp và Daddy: Trận Đấu Lúc Giữa Trưa - Hoạt Hình Tiếng Việt"
+										   data-view="1200" data-time="06-01-2020" data-like="188" data-dislike="2">
+											<div class="list-item--thumb">
+												<div class="thumb-image">
+													<img src="https://img.youtube.com/vi/FtwG_C8RZiU/maxresdefault.jpg"
+													     alt="One Piece Tập 50 - Usopp và Daddy: Trận Đấu Lúc Giữa Trưa - Hoạt Hình Tiếng Việt">
+												</div>
+											</div>
+											<div class="list-item--content">
+												<div class="name">
+													One Piece Tập 50 - Usopp và Daddy: Trận Đấu Lúc Giữa Trưa - Hoạt
+													Hình Tiếng Việt
+												</div>
+												<div class="desc">
+													<span class="view">
+														1.200 lượt xem
+													</span>
+													<span class="time">
+														06-01-2020
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="list-item">
+										<a href="javascript:void(0)" class="getVideo"
+										   title="One Piece Tập 51 - Trận Chiến Bếp Núc: Sanji Và Đầu Bếp Xinh Đẹp - Hoạt Hình Tiếng Việt"
+										   data-video="d4WtEhXez5s" data-comment="0"
+										   data-title="One Piece Tập 51 - Trận Chiến Bếp Núc: Sanji Và Đầu Bếp Xinh Đẹp - Hoạt Hình Tiếng Việt"
+										   data-view="2200" data-time="06-01-2020" data-like="1800" data-dislike="1200">
+											<div class="list-item--thumb">
+												<div class="thumb-image">
+													<img src="https://img.youtube.com/vi/d4WtEhXez5s/maxresdefault.jpg"
+													     alt="One Piece Tập 51 - Trận Chiến Bếp Núc: Sanji Và Đầu Bếp Xinh Đẹp - Hoạt Hình Tiếng Việt">
+												</div>
+											</div>
+											<div class="list-item--content">
+												<div class="name">
+													One Piece Tập 51 - Trận Chiến Bếp Núc: Sanji Và Đầu Bếp Xinh Đẹp -
+													Hoạt Hình Tiếng Việt
+												</div>
+												<div class="desc">
+													<span class="view">
+														2.200 lượt xem
+													</span>
+													<span class="time">
+														06-01-2020
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="list-item">
+										<a href="javascript:void(0)" class="getVideo"
+										   title="7 Nụ Cười Xuân 4 | Tập 9: Cris Phan, MLee bội phục màn cải lương Là 1 thằng con trai của Lâm Vỹ Dạ"
+										   data-video="IpH8BHM3reE" data-comment="120"
+										   data-title="7 Nụ Cười Xuân 4 | Tập 9: Cris Phan, MLee bội phục màn cải lương Là 1 thằng con trai của Lâm Vỹ Dạ"
+										   data-view="22000" data-time="06-01-2020" data-like="1720"
+										   data-dislike="12900">
+											<div class="list-item--thumb">
+												<div class="thumb-image">
+													<img src="https://img.youtube.com/vi/IpH8BHM3reE/maxresdefault.jpg"
+													     alt="7 Nụ Cười Xuân 4 | Tập 9: Cris Phan, MLee bội phục màn cải lương Là 1 thằng con trai của Lâm Vỹ Dạ">
+												</div>
+											</div>
+											<div class="list-item--content">
+												<div class="name">
+													7 Nụ Cười Xuân 4 | Tập 9: Cris Phan, MLee bội phục màn cải lương Là
+													1 thằng con trai của Lâm Vỹ Dạ
+												</div>
+												<div class="desc">
+													<span class="view">
+														22.000 lượt xem
+													</span>
+													<span class="time">
+														06-01-2020
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="list-item">
+										<a href="javascript:void(0)" class="getVideo"
+										   title="[Joker] DOFLAMINGO: Cấp độ sức mạnh? Tiền truy nã? Vai trò tương lai? Kho báu ở Mary Geoise?"
+										   data-video="1POGU2uWswk" data-comment="120"
+										   data-title="[Joker] DOFLAMINGO: Cấp độ sức mạnh? Tiền truy nã? Vai trò tương lai? Kho báu ở Mary Geoise?"
+										   data-view="156" data-time="06-01-2020" data-like="120" data-dislike="20">
+											<div class="list-item--thumb">
+												<div class="thumb-image">
+													<img src="https://img.youtube.com/vi/1POGU2uWswk/maxresdefault.jpg"
+													     alt="[Joker] DOFLAMINGO: Cấp độ sức mạnh? Tiền truy nã? Vai trò tương lai? Kho báu ở Mary Geoise?">
+												</div>
+											</div>
+											<div class="list-item--content">
+												<div class="name">
+													[Joker] DOFLAMINGO: Cấp độ sức mạnh? Tiền truy nã? Vai trò tương
+													lai? Kho báu ở Mary Geoise?
+												</div>
+												<div class="desc">
+													<span class="view">
+														156 lượt xem
+													</span>
+													<span class="time">
+														06-01-2020
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="list-item">
+										<a href="javascript:void(0)" class="getVideo"
+										   title="One Piece Tập 43 - Ngày Tàn Của Đế Chế Người Cá - Nami Là Đồng Đội Của Ta! - Hoạt Hình Tiếng Việt"
+										   data-video="7hHF5xrbSMw" data-comment="3100"
+										   data-title="One Piece Tập 43 - Ngày Tàn Của Đế Chế Người Cá - Nami Là Đồng Đội Của Ta! - Hoạt Hình Tiếng Việt"
+										   data-view="150006" data-time="06-01-2020" data-like="120k"
+										   data-dislike="23000">
+											<div class="list-item--thumb">
+												<div class="thumb-image">
+													<img src="https://img.youtube.com/vi/7hHF5xrbSMw/maxresdefault.jpg"
+													     alt="One Piece Tập 43 - Ngày Tàn Của Đế Chế Người Cá - Nami Là Đồng Đội Của Ta! - Hoạt Hình Tiếng Việt">
+												</div>
+											</div>
+											<div class="list-item--content">
+												<div class="name">
+													One Piece Tập 43 - Ngày Tàn Của Đế Chế Người Cá - Nami Là Đồng Đội
+													Của Ta! - Hoạt Hình Tiếng Việt
+												</div>
+												<div class="author">
+													POPS Anime
+												</div>
+												<div class="desc">
+													<span class="view">
+														150.006 lượt xem
+													</span>
+													<span class="time">
+														06-01-2020
+													</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</div>
+
+
+<script src="js/vue.js"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
+
+<script>
+	var app = new Vue({
+		el: '#app',
+		components: {
+			'myheader': httpVueLoader('header.vue'),
+			'sidebar': httpVueLoader('sidebar.vue'),
+			'menu-mobile': httpVueLoader('menu-mobile.vue'),
+		},
+	});
+</script>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$('.getVideo').click(function () {
+			let video = $(this).data('video'),
+				title = $(this).data('title'),
+				view = $(this).data('view'),
+				time = $(this).data('time'),
+				like = $(this).data('like'),
+				dislike = $(this).data('dislike'),
+				comment = $(this).data('comment');
+			
+			$('.videos-right--list .list-item').removeClass('active');
+			$(this).parent().addClass('active');
+			$('#loading-video').show();
+			
+			// Chỗ setTimeOut này em để tạm, nào anh xử lý thì nó sẽ có thời gian chờ
+			// Thời gian chờ này em dùng để show ra cái loading cho đẹp tý =))
+			setTimeout(function () {
+				$('#frame-video').prop('src', 'https://www.youtube.com/embed/' + video);
+				$('#title-video').text(title);
+				$('#view-video span').text(view);
+				$('#time-video span').text(time);
+				$('#like-video').removeClass('active');
+				$('#like-video span').text(like);
+				$('#dislike-video').removeClass('active');
+				$('#dislike-video span').text(dislike);
+				$('#comment-video').text(comment);
+				$('#loading-video').hide();
+			}, 500);
+		});
+		
+		// Tăng giảm like
+		$('#liked').click(function () {
+			let countLike = parseInt($(this).find('span').text()),
+				countDislike = parseInt($('#dislike-video span').text());
+			if ($(this).parent().hasClass('active')) {
+				$(this).parent().removeClass('active');
+				$('#like-video span').text(countLike - 1);
+			} else {
+				$(this).parent().addClass('active');
+				$('#like-video span').text(countLike + 1);
+			}
+			if ($('#dislike-video').hasClass('active')) {
+				$('#dislike-video span').text(countDislike - 1);
+				$('#dislike-video').removeClass('active');
+			}
+		});
+		
+		// Tăng giảm like
+		$('#disliked').click(function () {
+			let countDislike = parseInt($(this).find('span').text()),
+				countLike = parseInt($('#like-video span').text());
+			if ($(this).parent().hasClass('active')) {
+				$(this).parent().removeClass('active');
+				$('#dislike-video span').text(countDislike - 1);
+			} else {
+				$(this).parent().addClass('active');
+				$('#dislike-video span').text(countDislike + 1);
+			}
+			if ($('#like-video').hasClass('active')) {
+				$('#like-video span').text(countLike - 1);
+				$('#like-video').removeClass('active');
+			}
+		});
+		
+		$('.changeHeightTextarea').each(function () {
+			let elm = $(this);
+			elm.on('input', function () {
+				elm.css("height", "auto");
+				elm.css("height", elm[0].scrollHeight + 'px');
+			});
+		});
+		
+		$('.trigger-comment').click(function () {
+			$('#textareaComment').trigger('focus');
+			$(document).animate({
+				scrollTop: $('#textareaComment').offset().top
+			}, 250);
+		});
+		
+		$('.like-comment').click(function () {
+			let countLike = parseInt($(this).find('span').text()),
+				countDislike = parseInt($(this).next('.dislike-comment').find('span').text())
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+				$(this).find('span').text(countLike - 1);
+			} else {
+				$(this).addClass('active');
+				$(this).find('span').text(countLike + 1);
+			}
+			if ($(this).next('.dislike-comment').hasClass('active')) {
+				$(this).next('.dislike-comment').removeClass('active');
+				$(this).next('.dislike-comment').find('span').text(countDislike - 1);
+			}
+		});
+		
+		$('.dislike-comment').click(function () {
+			let countDislike = parseInt($(this).find('span').text()),
+				countLike = parseInt($(this).prev('.like-comment').find('span').text())
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+				$(this).find('span').text(countDislike - 1);
+			} else {
+				$(this).addClass('active');
+				$(this).find('span').text(countDislike + 1);
+			}
+			if ($(this).prev('.like-comment').hasClass('active')) {
+				$(this).prev('.like-comment').removeClass('active');
+				$(this).prev('.like-comment').find('span').text(countLike - 1);
+			}
+		});
+		
+		$('.expanded-comment').click(function () {
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+				$(this).next('.expanded-content').hide();
+				$(this).html(`<i class="fa fa-caret-down"></i>Xem câu trả lời`);
+			} else {
+				$(this).addClass('active');
+				$(this).next('.expanded-content').show();
+				$(this).html(`<i class="fa fa-caret-up"></i>Ẩn trả lời`);
+			}
+		})
+		
+		$('#send-textarea').click(function (e) {
+			let content = $('#textareaComment').val(),
+				name = $(this).data('name'),
+				avatar = $(this).data('avatar'),
+				html = '';
+			if (content != '') {
+				html += `<div class="list-item--comment">
+						<div class="image">
+							<img src="${avatar}" alt="${name}">
+						</div>
+						<div class="content">
+							<div class="info">
+								<div class="name">
+									${name}
+								</div>
+							<div class="time">
+								1 giờ trước
+							</div>
+							</div>
+							<div class="desc">
+								${content}
+							</div>
+							<div class="action">
+								<div class="like-comment">
+									<a href="javascript:void(0)">
+										<i class="fa fa-thumbs-up"></i>
+										<span>0</span>
+									</a>
+								</div>
+								<div class="dislike-comment">
+									<a href="javascript:void(0)">
+										<i class="fa fa-thumbs-down"></i>
+										<span>0</span>
+									</a>
+								</div>
+								<div class="reply-comment">
+									<a href="javascript:void(0)" class="trigger-comment">
+										Phản hồi
+									</a>
+								</div>
+							</div>
+						</div>
+				</div>`;
+				$('.list--comment').prepend(html);
+				$('#textareaComment').val('');
+			} else {
+				alert('Vui lòng nhập nội dung trả lời')
+			}
+			// Ngăn sự kiện submit của form
+			return false;
+		});
+		
+		$('#reset-textarea').click(function () {
+			$('#textareaComment').val('');
+		})
+	})
+</script>
+</body>
+
+</html>

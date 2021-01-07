@@ -8,27 +8,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="ProjectId" id="1fAzcxYKSZYrnR8Z5cUlQW9kSvU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/anh-nam/app-booking-user" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\anhhung-freelance\template" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,21 +42,22 @@
       <workItem from="1595771660968" duration="764000" />
       <workItem from="1595774686238" duration="1753000" />
       <workItem from="1595812147910" duration="106000" />
-      <workItem from="1603717633287" duration="370000" />
+      <workItem from="1603717633287" duration="1772000" />
+      <workItem from="1603724279505" duration="599000" />
+      <workItem from="1603760794882" duration="35000" />
+      <workItem from="1608029536752" duration="6282000" />
+      <workItem from="1608774889250" duration="897000" />
+      <workItem from="1609907436368" duration="969000" />
+      <workItem from="1609917553869" duration="3000" />
+      <workItem from="1609917578091" duration="1029000" />
+      <workItem from="1609920451004" duration="3173000" />
+      <workItem from="1609938374260" duration="2119000" />
+      <workItem from="1609942894681" duration="3482000" />
+      <workItem from="1609984251315" duration="10116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595812254016">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595812254016" />
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1595678167734">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595678167734" />
+    <option name="version" value="3" />
   </component>
 </project>
